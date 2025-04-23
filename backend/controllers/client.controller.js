@@ -321,12 +321,12 @@ async function signUp(req, res) {
     if (!isAddressValid) {
       return res.status(400).json({ message: "L'adresse saisie est invalide" });
     }
-    // const apiKey = '2859b334b5cf4296976a534dbe5e69a7';
+    const apiKey = 'cle api';
     const email = req.body.EmailClient;
 
-    //const response = await axios.get(`https://api.zerobounce.net/v2/validate?api_key=${apiKey}&email=${email}`);
+    const response = await axios.get(`https://api.zerobounce.net/v2/validate?api_key=${apiKey}&email=${email}`);
 
-    // if (response.data.status === 'valid') {
+     if (response.data.status === 'valid') {
     models.Client.findOne({ where: { EmailClient: email } })
       .then((result) => {
         if (result) {
@@ -425,9 +425,9 @@ L'équipe Beaver`,
       .catch((error) => {
         res.status(500).json({ message: 'Something went wrong', error: error });
       });
-    // } else {
-    //res.status(400).json({ message: "Email invalide" });
-    // }
+     } else {
+    res.status(400).json({ message: "Email invalide" });
+    }
   } catch (error) {
     console.error("Erreur lors de la validation de l'e-mail :", error);
     res.status(500).json({
