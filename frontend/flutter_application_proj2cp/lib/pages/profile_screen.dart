@@ -116,7 +116,7 @@ class _ProfileState extends State<Profile> {
   String _addressErrorText = '';
   @override
   void _searchPlaces(String input) async {
-    const apiKey = 'AIzaSyBUoTHDCzxA7lix93aS8D5EuPa-VCuoAq0';
+    const apiKey = 'la clé api';
     String url;
 
     if (input.isEmpty) {
