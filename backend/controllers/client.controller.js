@@ -313,7 +313,7 @@ async function signUp(req, res) {
         .json({ message: "Le numéro de téléphone n'a pas le bon format" });
     }
 
-    const Cleapi = 'AIzaSyDRCkJohH9RkmMIgpoNB2KBlLF6YMOOmmk';
+    const Cleapi = 'the api cli';
     const address = req.body.AdresseClient;
 
     const isAddressValid = await validateAddress(address, Cleapi);
