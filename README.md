@@ -95,11 +95,9 @@ Here are some screenshots from our mobile application:
 ![Screenshot 2025-04-23 211441](https://github.com/user-attachments/assets/7e509373-c863-4ac8-8b79-887e601457b8)
 
 ### 🛠️ Available Services
-Shows a list of available home services (plumbing, electricity, painting, etc.).
 ![Screenshot 2025-04-23 211455](https://github.com/user-attachments/assets/565afd6b-33c7-43d7-9fb6-e2f4738f614a)
 
 ### 📄 Service Request Details
-Displays the details of a service request made by the client.
 ![Screenshot 2025-04-23 211522](https://github.com/user-attachments/assets/ae610d2d-6ddb-4c81-99db-d15186424fff)
 
 
