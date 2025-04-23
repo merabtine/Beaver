@@ -39,7 +39,7 @@ class _ProfileartisanPageState extends State<ProfileartisanPage> {
 
   @override
   void _searchPlaces(String input) async {
-    const apiKey = 'AIzaSyBUoTHDCzxA7lix93aS8D5EuPa-VCuoAq0';
+    const apiKey = 'la clé api';
     final url =
         'https://maps.googleapis.com/maps/api/place/autocomplete/json?input=$input&types=(cities)&key=$apiKey&language=fr';
 
