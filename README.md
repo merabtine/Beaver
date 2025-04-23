@@ -20,15 +20,16 @@ This project was developed as part of the 2CP (Second Year of the Preparatory Cy
 
 ## 👥 Team Members
 
+### Backend
+- @Merabtine Aya Malek
+- @Djebrouni Wafaa Feriel
+- @Ghecham Sarah
+
 ### Frontend
 - @Djouaher Yasmine
 - @Kheddia Assia
 - @Boudraa Lynda
 
-### Backend
-- @Merabtine Aya Malek
-- @Djebrouni Wafaa Feriel
-- @Ghecham Sarah
 
 ## ✨ Key Features
 
